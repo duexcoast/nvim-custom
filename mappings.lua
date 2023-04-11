@@ -49,10 +49,10 @@ M.hop = {
 M.toggleterm = {
   n = {
     ["<leader>g"] = {"<cmd>lua Lazygit_toggle()<CR>", "Open LazyGit in Floating Terminal"},
-    ["<C-p>"] = {"<cmd> ToggleTerm direction=float<CR>"},
+    ["<C-o>"] = {"<cmd> ToggleTerm direction=float<CR>"},
   },
   t = {
-    ["<C-p>"] = {"<cmd> ToggleTerm direction=float<CR>"},
+    ["<C-o>"] = {"<cmd> ToggleTerm direction=float<CR>"},
     ["<ESC>"] = { "<C-\\><C-n>", opts = { buffer = 0 }, },
     ["<C-h>"] = { "<Cmd>wincmd h<CR>", opts = { buffer = 0 }, },
     ["<C-j>"] = { "<Cmd>wincmd j<CR>", opts = { buffer = 0 }, },
